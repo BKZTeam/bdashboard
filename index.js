@@ -3,7 +3,7 @@ import fetch from "node-fetch";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const CONTRACT = "0x74c220a24718cf1cb2743b212ce52e23be6dd357";
+const CONTRACT = "https://bscscan.com/token/0x7852998765c0730d59D78262CfdFa666989023bd";
 const API_KEY = process.env.ETHERSCAN_API_KEY || ""; // define isto em Render
 
 // Serve simple HTML (preto + dourado)
